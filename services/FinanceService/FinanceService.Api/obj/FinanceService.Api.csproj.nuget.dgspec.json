@@ -1,0 +1,574 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj",
+        "projectName": "SGen.Framework.Web",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj"
+              },
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj",
+        "projectName": "SGen.Framework",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj",
+        "projectName": "BillingService.Domain",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj",
+        "projectName": "FinanceService.Api",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj"
+              },
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj",
+        "projectName": "FinanceService.Application",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj"
+              },
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
+        "projectName": "FinanceService.Domain",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj",
+        "projectName": "FinanceService.Infrastructure",
+        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj": {
+                "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

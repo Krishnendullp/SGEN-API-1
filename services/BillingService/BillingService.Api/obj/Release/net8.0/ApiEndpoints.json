@@ -1,0 +1,2748 @@
+[
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.CustomerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/CustomerMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.CustomerMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.CustomerMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.CustomerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/CustomerMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.CustomerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/CustomerMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.CustomerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/CustomerMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.CustomerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/CustomerMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.CustomerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.CustomerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/CustomerMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.CustomerMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.CustomerMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BillingService.Api.Controllers.InvoiceController",
+    "Method": "Generate",
+    "RelativePath": "api/Invoice/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.ItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/ItemMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.ItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.ItemMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.ItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/ItemMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.ItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/ItemMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.ItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/ItemMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.ItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ItemMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.ItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ItemMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.ItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.ItemMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerCategory, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/LedgerCategory/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.LedgerCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.LedgerCategoryDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerCategory, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/LedgerCategory/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerCategory, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/LedgerCategory/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerCategory, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/LedgerCategory/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerCategory, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/LedgerCategory/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerCategory, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerCategoryDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/LedgerCategory/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.LedgerCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.LedgerCategoryDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/LedgerDetail/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.LedgerDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.LedgerDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/LedgerDetail/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/LedgerDetail/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/LedgerDetail/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/LedgerDetail/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/LedgerDetail/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.LedgerDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.LedgerDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/LedgerMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.LedgerMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.LedgerMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/LedgerMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/LedgerMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/LedgerMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.LedgerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/LedgerMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.LedgerMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.LedgerMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/LedgerMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.LedgerMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.LedgerMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.ProjectMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/ProjectMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.ProjectMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.ProjectMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.ProjectMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/ProjectMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.ProjectMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/ProjectMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.ProjectMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/ProjectMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.ProjectMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ProjectMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.ProjectMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.ProjectMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ProjectMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.ProjectMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.ProjectMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.PurchaseOrder, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Purchase/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.PurchaseOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.PurchaseOrderDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.PurchaseOrder, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/Purchase/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.PurchaseOrder, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Purchase/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.PurchaseOrder, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Purchase/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.PurchaseOrder, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Purchase/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.PurchaseOrder, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.PurchaseOrderDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Purchase/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.PurchaseOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.PurchaseOrderDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SaleInvoice, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SaleInvoice/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleInvoiceDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SaleInvoice, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SaleInvoice/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SaleInvoice, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SaleInvoice/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SaleInvoice, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SaleInvoice/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SaleInvoice, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SaleInvoice/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SaleInvoice, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoiceDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SaleInvoice/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleInvoiceDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SaleInvoicePayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SaleInvoicePayment/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleInvoicePaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleInvoicePaymentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SaleInvoicePayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SaleInvoicePayment/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SaleInvoicePayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SaleInvoicePayment/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SaleInvoicePayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SaleInvoicePayment/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SaleInvoicePayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SaleInvoicePayment/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SaleInvoicePayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleInvoicePaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SaleInvoicePayment/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleInvoicePaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleInvoicePaymentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SaleItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SaleItemMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleItemMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SaleItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SaleItemMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SaleItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SaleItemMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SaleItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SaleItemMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SaleItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SaleItemMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SaleItemMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleItemMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SaleItemMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleItemMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SaleMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SaleMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SaleMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SaleMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SaleMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SaleMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SaleMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SaleMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SaleMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SaleMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SaleMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SaleMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SaleMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SaleMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SaleMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SubLedger, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SubLedger/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SubLedgerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SubLedgerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SubLedger, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SubLedger/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SubLedger, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SubLedger/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SubLedger, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SubLedger/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.SubLedger, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SubLedger/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.SubLedger, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SubLedgerDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SubLedger/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SubLedgerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SubLedgerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SupplierMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SupplierMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SupplierMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SupplierMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SupplierMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SupplierMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SupplierMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SupplierMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SupplierMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SupplierMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierPayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SupplierPayment/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SupplierPaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SupplierPaymentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierPayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SupplierPayment/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierPayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SupplierPayment/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierPayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SupplierPayment/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierPayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SupplierPayment/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierPayment, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierPaymentDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SupplierPayment/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SupplierPaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SupplierPaymentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierReturn, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/SupplierReturn/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SupplierReturnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SupplierReturnDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierReturn, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/SupplierReturn/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierReturn, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/SupplierReturn/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierReturn, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SupplierReturn/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.SupplierReturn, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SupplierReturn/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.SupplierReturn, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.SupplierReturnDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SupplierReturn/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.SupplierReturnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.SupplierReturnDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroup, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TaxGroup/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxGroupDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroup, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/TaxGroup/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroup, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TaxGroup/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroup, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/TaxGroup/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroup, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TaxGroup/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroup, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TaxGroup/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxGroupDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroupIgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TaxGroupIgstDetail/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxGroupIgstDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxGroupIgstDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroupIgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/TaxGroupIgstDetail/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroupIgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TaxGroupIgstDetail/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroupIgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/TaxGroupIgstDetail/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroupIgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TaxGroupIgstDetail/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroupIgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupIgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TaxGroupIgstDetail/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxGroupIgstDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxGroupIgstDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroupSgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TaxGroupSgstDetail/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxGroupSgstDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxGroupSgstDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroupSgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/TaxGroupSgstDetail/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroupSgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TaxGroupSgstDetail/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroupSgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/TaxGroupSgstDetail/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.TaxGroupSgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TaxGroupSgstDetail/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.TaxGroupSgstDetail, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxGroupSgstDetailDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TaxGroupSgstDetail/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxGroupSgstDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxGroupSgstDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.Tax, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TaxMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.Tax, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/TaxMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.Tax, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TaxMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.Tax, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/TaxMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.Tax, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TaxMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.Tax, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.TaxDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TaxMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.TaxDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.TaxDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.Unit, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/UnitMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.UnitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.UnitDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.Unit, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/UnitMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.Unit, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/UnitMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.Unit, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/UnitMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[Framework.Entities.Unit, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/UnitMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[Framework.Entities.Unit, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.UnitDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/UnitMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.UnitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.UnitDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.VoucherMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "CreateAsync",
+    "RelativePath": "api/VoucherMaster/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.VoucherMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.VoucherMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.VoucherMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetById",
+    "RelativePath": "api/VoucherMaster/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.VoucherMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/VoucherMaster/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.VoucherMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAll",
+    "RelativePath": "api/VoucherMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseQueryController\u00603[[SGen.Framework.Entities.VoucherMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/VoucherMaster/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryParams",
+        "Type": "SGen.Framework.Common.QueryParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGen.Framework.Common.PagedResult\u00601[[System.Collections.Generic.IEnumerable\u00601[[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Framework.Web.Controllers.BaseCrudController\u00603[[SGen.Framework.Entities.VoucherMaster, SGen.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BillingService.Domain.Entities.VoucherMasterDto, BillingService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/VoucherMaster/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "BillingService.Domain.Entities.VoucherMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BillingService.Domain.Entities.VoucherMasterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

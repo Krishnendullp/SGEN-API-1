@@ -1,0 +1,125 @@
+SGen Microservices Setup Document (with .NET 8)
+
+This document outlines all commands required to create the SGen microservices solution with BillingService, FinanceService, shared libraries, and a reusable framework.
+
+1️⃣ Create Solution and Folder Structure
+# Create main solution
+dotnet new sln -n SGen
+
+# Create main directories
+mkdir services shared framework
+
+2️⃣ Create Billing Service
+mkdir services/BillingService
+cd services/BillingService
+
+# Create projects
+dotnet new webapi -n BillingService.Api --framework net8.0
+dotnet new classlib -n BillingService.Application --framework net8.0
+dotnet new classlib -n BillingService.Domain --framework net8.0
+dotnet new classlib -n BillingService.Infrastructure --framework net8.0
+
+# Add project references
+dotnet add BillingService.Api/BillingService.Api.csproj reference BillingService.Application/BillingService.Application.csproj
+dotnet add BillingService.Application/BillingService.Application.csproj reference BillingService.Domain/BillingService.Domain.csproj
+dotnet add BillingService.Infrastructure/BillingService.Infrastructure.csproj reference BillingService.Domain/BillingService.Domain.csproj
+dotnet add BillingService.Application/BillingService.Application.csproj reference BillingService.Infrastructure/BillingService.Infrastructure.csproj
+cd ../../
+
+3️⃣ Create Finance Service
+mkdir services/FinanceService
+cd services/FinanceService
+
+# Create projects
+dotnet new webapi -n FinanceService.Api --framework net8.0
+dotnet new classlib -n FinanceService.Application --framework net8.0
+dotnet new classlib -n FinanceService.Domain --framework net8.0
+dotnet new classlib -n FinanceService.Infrastructure --framework net8.0
+
+# Add project references
+dotnet add FinanceService.Api/FinanceService.Api.csproj reference FinanceService.Application/FinanceService.Application.csproj
+dotnet add FinanceService.Application/FinanceService.Application.csproj reference FinanceService.Domain/FinanceService.Domain.csproj
+dotnet add FinanceService.Infrastructure/FinanceService.Infrastructure.csproj reference FinanceService.Domain/FinanceService.Domain.csproj
+dotnet add FinanceService.Application/FinanceService.Application.csproj reference FinanceService.Infrastructure/FinanceService.Infrastructure.csproj
+cd ../../
+
+4️⃣ Create Shared Library
+cd shared
+dotnet new classlib -n SGen.Shared --framework net8.0
+cd ..
+
+5️⃣ Create SGen Framework
+Core Framework
+dotnet new classlib -n SGen.Framework -o framework/SGen.Framework --framework net8.0
+dotnet add framework/SGen.Framework/SGen.Framework.csproj package Microsoft.Extensions.Logging.Abstractions
+dotnet add framework/SGen.Framework/SGen.Framework.csproj package Microsoft.EntityFrameworkCore
+
+Web Framework
+dotnet new classlib -n SGen.Framework.Web -o framework/SGen.Framework.Web --framework net8.0
+dotnet add framework/SGen.Framework.Web/SGen.Framework.Web.csproj package Microsoft.AspNetCore.Mvc
+dotnet add framework/SGen.Framework.Web/SGen.Framework.Web.csproj package Microsoft.Extensions.Logging.Abstractions
+
+# Reference core framework
+dotnet add framework/SGen.Framework.Web/SGen.Framework.Web.csproj reference framework/SGen.Framework/SGen.Framework.csproj
+
+6️⃣ Add Framework References to Services
+# BillingService
+dotnet add services/BillingService/BillingService.Application/BillingService.Application.csproj reference framework/SGen.Framework/SGen.Framework.csproj
+dotnet add services/BillingService/BillingService.Api/BillingService.Api.csproj reference framework/SGen.Framework.Web/SGen.Framework.Web.csproj
+
+# FinanceService
+dotnet add services/FinanceService/FinanceService.Application/FinanceService.Application.csproj reference framework/SGen.Framework/SGen.Framework.csproj
+dotnet add services/FinanceService/FinanceService.Api/FinanceService.Api.csproj reference framework/SGen.Framework.Web/SGen.Framework.Web.csproj
+
+7️⃣ Add All Projects to Solution
+dotnet sln SGen.sln add services/BillingService/**/*.csproj
+dotnet sln SGen.sln add services/FinanceService/**/*.csproj
+dotnet sln SGen.sln add shared/SGen.Shared/SGen.Shared.csproj
+dotnet sln SGen.sln add framework/SGen.Framework/**/*.csproj
+dotnet sln SGen.sln add framework/SGen.Framework.Web/**/*.csproj
+
+8️⃣ Build and Run
+# Build solution
+dotnet build SGen.sln
+
+# Run BillingService API
+dotnet run --project services/BillingService/BillingService.Api
+
+# Run FinanceService API
+dotnet run --project services/FinanceService/FinanceService.Api
+
+9️⃣ Optional / Recommended Commands
+# Add EF Core design package for migrations
+dotnet add framework/SGen.Framework/SGen.Framework.csproj package Microsoft.EntityFrameworkCore.Design
+
+# Run migrations (example)
+dotnet ef migrations add InitialCreate --project services/BillingService/BillingService.Infrastructure --startup-project services/BillingService/BillingService.Api
+dotnet ef database update --project services/BillingService/BillingService.Infrastructure --startup-project services/BillingService/BillingService.Api
+
+# Clean solution
+dotnet clean SGen.sln
+
+# Restore packages
+dotnet restore SGen.sln
+
+
+✅ Result:
+You now have a complete microservice solution structure:
+
+SGen
+├── framework
+│   ├── SGen.Framework
+│   └── SGen.Framework.Web
+├── services
+│   ├── BillingService
+│   │   ├── Api
+│   │   ├── Application
+│   │   ├── Domain
+│   │   └── Infrastructure
+│   └── FinanceService
+│       ├── Api
+│       ├── Application
+│       ├── Domain
+│       └── Infrastructure
+└── shared
+    └── SGen.Shared

@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FinanceService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FinanceService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinanceService.Domain.dll": {}
+        }
+      },
+      "FinanceService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FinanceService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinanceService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinanceService.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinanceService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FinanceService.Domain/FinanceService.Domain.csproj",
+      "msbuildProject": "../FinanceService.Domain/FinanceService.Domain.csproj"
+    },
+    "FinanceService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FinanceService.Infrastructure/FinanceService.Infrastructure.csproj",
+      "msbuildProject": "../FinanceService.Infrastructure/FinanceService.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FinanceService.Domain >= 1.0.0",
+      "FinanceService.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\krish\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj",
+      "projectName": "FinanceService.Application",
+      "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\FinanceService.Application.csproj",
+      "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Fast Reports\\.NET\\2024.2.20\\FastReport .NET Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WPF Pack Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Fast Reports\\.NET\\2025.2.5\\FastReport .NET WinForms Pack Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj": {
+              "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj"
+            },
+            "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Infrastructure\\FinanceService.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

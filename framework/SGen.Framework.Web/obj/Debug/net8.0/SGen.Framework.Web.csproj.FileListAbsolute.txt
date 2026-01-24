@@ -1,0 +1,68 @@
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/bin/Debug/net8.0/SGen.Framework.Web.deps.json
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/bin/Debug/net8.0/SGen.Framework.Web.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/bin/Debug/net8.0/SGen.Framework.Web.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/bin/Debug/net8.0/SGen.Framework.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/bin/Debug/net8.0/SGen.Framework.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.csproj.AssemblyReference.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.GeneratedMSBuildEditorConfig.editorconfig
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.AssemblyInfoInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.AssemblyInfo.cs
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.csproj.CoreCompileInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Fra.C93BC7AB.Up2Date
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/refint/SGen.Framework.Web.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/SGen.Framework.Web.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/framework/SGen.Framework.Web/obj/Debug/net8.0/ref/SGen.Framework.Web.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.deps.json
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.csproj.AssemblyReference.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.AssemblyInfoInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.AssemblyInfo.cs
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.csproj.CoreCompileInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Fra.C93BC7AB.Up2Date
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\refint\SGen.Framework.Web.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\obj\Debug\net8.0\ref\SGen.Framework.Web.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\framework\SGen.Framework.Web\bin\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.deps.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.csproj.AssemblyReference.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.AssemblyInfoInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.AssemblyInfo.cs
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.csproj.CoreCompileInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.sourcelink.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Fra.C93BC7AB.Up2Date
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\refint\SGen.Framework.Web.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\ref\SGen.Framework.Web.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.deps.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.Web.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\bin\Debug\net8.0\SGen.Framework.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.csproj.AssemblyReference.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.AssemblyInfoInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.AssemblyInfo.cs
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.csproj.CoreCompileInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.sourcelink.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Fra.C93BC7AB.Up2Date
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\refint\SGen.Framework.Web.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\SGen.Framework.Web.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\framework\SGen.Framework.Web\obj\Debug\net8.0\ref\SGen.Framework.Web.dll

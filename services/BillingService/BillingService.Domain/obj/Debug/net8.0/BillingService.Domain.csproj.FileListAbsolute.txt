@@ -1,0 +1,62 @@
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/bin/Debug/net8.0/BillingService.Domain.deps.json
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/bin/Debug/net8.0/BillingService.Domain.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/bin/Debug/net8.0/BillingService.Domain.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.AssemblyInfoInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.AssemblyInfo.cs
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.csproj.CoreCompileInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/refint/BillingService.Domain.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/ref/BillingService.Domain.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/bin/Debug/net8.0/SGen.Framework.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/bin/Debug/net8.0/SGen.Framework.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingService.Domain.csproj.AssemblyReference.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/services/BillingService/BillingService.Domain/obj/Debug/net8.0/BillingS.648EE29A.Up2Date
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.deps.json
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\bin\Debug\net8.0\SGen.Framework.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\bin\Debug\net8.0\SGen.Framework.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.csproj.AssemblyReference.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.AssemblyInfoInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.AssemblyInfo.cs
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingS.648EE29A.Up2Date
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\refint\BillingService.Domain.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\BillingService\BillingService.Domain\obj\Debug\net8.0\ref\BillingService.Domain.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.deps.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\SGen.Framework.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\SGen.Framework.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.csproj.AssemblyReference.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.AssemblyInfoInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.AssemblyInfo.cs
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.sourcelink.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingS.648EE29A.Up2Date
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\refint\BillingService.Domain.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\ref\BillingService.Domain.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.deps.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\SGen.Framework.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\bin\Debug\net8.0\SGen.Framework.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.csproj.AssemblyReference.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.AssemblyInfoInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.AssemblyInfo.cs
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.sourcelink.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingS.648EE29A.Up2Date
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\refint\BillingService.Domain.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\BillingService.Domain.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\BillingService\BillingService.Domain\obj\Debug\net8.0\ref\BillingService.Domain.dll

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "services\\BillingService\\BillingService.Api\\BillingService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

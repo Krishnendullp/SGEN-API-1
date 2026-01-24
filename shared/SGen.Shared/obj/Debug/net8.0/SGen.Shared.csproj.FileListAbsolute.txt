@@ -1,0 +1,46 @@
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/bin/Debug/net8.0/SGen.Shared.deps.json
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/bin/Debug/net8.0/SGen.Shared.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/bin/Debug/net8.0/SGen.Shared.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/SGen.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/SGen.Shared.AssemblyInfoInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/SGen.Shared.AssemblyInfo.cs
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/SGen.Shared.csproj.CoreCompileInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/SGen.Shared.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/refint/SGen.Shared.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/SGen.Shared.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/shared/SGen.Shared/obj/Debug/net8.0/ref/SGen.Shared.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.deps.json
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.AssemblyInfoInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.AssemblyInfo.cs
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.csproj.CoreCompileInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\refint\SGen.Shared.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\shared\SGen.Shared\obj\Debug\net8.0\ref\SGen.Shared.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.deps.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.AssemblyInfoInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.AssemblyInfo.cs
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.csproj.CoreCompileInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.sourcelink.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\refint\SGen.Shared.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\ref\SGen.Shared.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.deps.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\bin\Debug\net8.0\SGen.Shared.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.AssemblyInfoInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.AssemblyInfo.cs
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.csproj.CoreCompileInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.sourcelink.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\refint\SGen.Shared.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\SGen.Shared.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\shared\SGen.Shared\obj\Debug\net8.0\ref\SGen.Shared.dll

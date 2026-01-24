@@ -1,0 +1,62 @@
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/bin/Debug/net8.0/FinanceService.Infrastructure.deps.json
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/bin/Debug/net8.0/FinanceService.Infrastructure.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/bin/Debug/net8.0/FinanceService.Infrastructure.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/bin/Debug/net8.0/FinanceService.Domain.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/bin/Debug/net8.0/FinanceService.Domain.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.csproj.AssemblyReference.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.AssemblyInfoInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.AssemblyInfo.cs
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceS.AA79E975.Up2Date
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/refint/FinanceService.Infrastructure.dll
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/FinanceService.Infrastructure.pdb
+/Users/himanshu/Desktop/Company name/SGen-backend/services/FinanceService/FinanceService.Infrastructure/obj/Debug/net8.0/ref/FinanceService.Infrastructure.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.deps.json
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Domain.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Domain.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.AssemblyInfo.cs
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceS.AA79E975.Up2Date
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\refint\FinanceService.Infrastructure.dll
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.pdb
+C:\Users\krish\Downloads\SGen-backend\SGen-backend\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\ref\FinanceService.Infrastructure.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.deps.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Domain.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Domain.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.AssemblyInfo.cs
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.sourcelink.json
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceS.AA79E975.Up2Date
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\refint\FinanceService.Infrastructure.dll
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.pdb
+C:\Users\krish\OneDrive\Desktop\gitNew\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\ref\FinanceService.Infrastructure.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.deps.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Infrastructure.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Domain.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\bin\Debug\net8.0\FinanceService.Domain.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.AssemblyInfo.cs
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.sourcelink.json
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceS.AA79E975.Up2Date
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\refint\FinanceService.Infrastructure.dll
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\FinanceService.Infrastructure.pdb
+C:\Users\krish\Desktop\SGEN-API\SGEN-API\services\FinanceService\FinanceService.Infrastructure\obj\Debug\net8.0\ref\FinanceService.Infrastructure.dll
