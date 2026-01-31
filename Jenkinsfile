@@ -32,12 +32,12 @@ pipeline {
             }
         }
 
-        stage('Health Check (PORT ONLY, no API touch)') {
+        stage('Health Check (PORT ONLY, bash native)') {
             steps {
                 sh '''
                 for i in {1..20}; do
                   echo "Checking port ${GREEN_PORT} (attempt $i)"
-                  if nc -z localhost ${GREEN_PORT}; then
+                  if (echo > /dev/tcp/127.0.0.1/${GREEN_PORT}) >/dev/null 2>&1; then
                     echo "Port is open, API is up"
                     exit 0
                   fi
