@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AAC+ay77mkE=",
+  "dgSpecHash": "e2Dazjkl4m8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj",
+  "projectFilePath": "D:\\SGEN\\SGEN-API-1\\services\\FinanceService\\FinanceService.Api\\FinanceService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krish\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\krish\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

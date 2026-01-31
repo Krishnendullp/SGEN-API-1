@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\shared\\SGen.Shared\\SGen.Shared.csproj",
+      "projectUniqueName": "D:\\SGEN\\SGEN-API-1\\shared\\SGen.Shared\\SGen.Shared.csproj",
       "projectName": "SGen.Shared",
-      "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\shared\\SGen.Shared\\SGen.Shared.csproj",
+      "projectPath": "D:\\SGEN\\SGEN-API-1\\shared\\SGen.Shared\\SGen.Shared.csproj",
       "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\shared\\SGen.Shared\\obj\\",
+      "outputPath": "D:\\SGEN\\SGEN-API-1\\shared\\SGen.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
+      "projectUniqueName": "D:\\SGEN\\SGEN-API-1\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
       "projectName": "FinanceService.Domain",
-      "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
+      "projectPath": "D:\\SGEN\\SGEN-API-1\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
       "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\obj\\",
+      "outputPath": "D:\\SGEN\\SGEN-API-1\\services\\FinanceService\\FinanceService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

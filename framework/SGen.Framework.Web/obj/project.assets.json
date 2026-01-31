@@ -9809,11 +9809,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj",
+      "projectUniqueName": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj",
       "projectName": "SGen.Framework.Web",
-      "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj",
+      "projectPath": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework.Web\\SGen.Framework.Web.csproj",
       "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework.Web\\obj\\",
+      "outputPath": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9837,11 +9837,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj": {
-              "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj"
+            "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\SGen.Framework.csproj": {
+              "projectPath": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\SGen.Framework.csproj"
             },
-            "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj": {
-              "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj"
+            "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj": {
+              "projectPath": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Domain\\BillingService.Domain.csproj"
             }
           }
         }

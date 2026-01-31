@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj": {}
+    "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\SGen.Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj": {
+    "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\SGen.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj",
+        "projectUniqueName": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\SGen.Framework.csproj",
         "projectName": "SGen.Framework",
-        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\SGen.Framework.csproj",
+        "projectPath": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\SGen.Framework.csproj",
         "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\framework\\SGen.Framework\\obj\\",
+        "outputPath": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

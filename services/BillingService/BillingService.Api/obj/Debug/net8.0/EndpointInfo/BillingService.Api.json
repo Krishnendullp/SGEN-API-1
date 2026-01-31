@@ -7536,7 +7536,7 @@
             "format": "date-time",
             "nullable": true
           },
-          "ledger": {
+          "ledgerMasters": {
             "$ref": "#/components/schemas/LedgerMaster"
           }
         },

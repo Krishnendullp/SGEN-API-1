@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\SGen.Scaffolding\\SGen.Scaffolding.csproj": {}
+    "D:\\SGEN\\SGEN-API-1\\SGen.Scaffolding\\SGen.Scaffolding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\SGen.Scaffolding\\SGen.Scaffolding.csproj": {
+    "D:\\SGEN\\SGEN-API-1\\SGen.Scaffolding\\SGen.Scaffolding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\SGen.Scaffolding\\SGen.Scaffolding.csproj",
+        "projectUniqueName": "D:\\SGEN\\SGEN-API-1\\SGen.Scaffolding\\SGen.Scaffolding.csproj",
         "projectName": "SGen.Scaffolding",
-        "projectPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\SGen.Scaffolding\\SGen.Scaffolding.csproj",
+        "projectPath": "D:\\SGEN\\SGEN-API-1\\SGen.Scaffolding\\SGen.Scaffolding.csproj",
         "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\SGen.Scaffolding\\obj\\",
+        "outputPath": "D:\\SGEN\\SGEN-API-1\\SGen.Scaffolding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

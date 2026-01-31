@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qVEz3qGC+SM=",
+  "dgSpecHash": "ckJyo1rcphg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\krish\\Desktop\\SGEN-API\\SGEN-API\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
+  "projectFilePath": "D:\\SGEN\\SGEN-API-1\\services\\FinanceService\\FinanceService.Domain\\FinanceService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
