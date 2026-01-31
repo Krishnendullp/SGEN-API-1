@@ -3,12 +3,13 @@ pipeline {
 
     environment {
         IMAGE = "sgen-billing-api:latest"
-        GREEN = "sgen-billing-green"
-        BLUE  = "sgen-billing-blue"
+        GREEN = "sgen-billing-api-green"
+        BLUE  = "sgen-billing-api-blue"
     }
 
     stages {
-        stage('Checkout from Git') {
+
+        stage('Checkout') {
             steps {
                 checkout scm
             }
@@ -16,9 +17,7 @@ pipeline {
 
         stage('Build API Docker Image') {
             steps {
-                dir('services/BillingService/BillingService.Api') {
-                    sh 'docker build -t $IMAGE .'
-                }
+                sh 'docker build -t $IMAGE .'
             }
         }
 
@@ -34,8 +33,8 @@ pipeline {
         stage('Health Check') {
             steps {
                 sh '''
-                sleep 10
-                curl -f http://localhost:7001/health || exit 1
+                sleep 15
+                curl -f http://localhost:7001/health
                 '''
             }
         }
