@@ -9,7 +9,7 @@ using SGen.Framework.Web.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://0.0.0.0:7072");
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
 // Register services
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();

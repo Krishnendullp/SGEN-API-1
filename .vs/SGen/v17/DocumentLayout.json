@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SGEN\\SGEN-API-1\\",
+  "WorkspaceRootPath": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{760FFD54-4181-43BF-BA49-619A77FB3311}|services\\BillingService\\BillingService.Api\\BillingService.Api.csproj|d:\\sgen\\sgen-api-1\\services\\billingservice\\billingservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{760FFD54-4181-43BF-BA49-619A77FB3311}|services\\BillingService\\BillingService.Api\\BillingService.Api.csproj|d:\\sgen\\sgen-api-1\\sgen-api-1\\services\\billingservice\\billingservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{760FFD54-4181-43BF-BA49-619A77FB3311}|services\\BillingService\\BillingService.Api\\BillingService.Api.csproj|solutionrelative:services\\billingservice\\billingservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{760FFD54-4181-43BF-BA49-619A77FB3311}|services\\BillingService\\BillingService.Api\\BillingService.Api.csproj|d:\\sgen\\sgen-api-1\\services\\billingservice\\billingservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{760FFD54-4181-43BF-BA49-619A77FB3311}|services\\BillingService\\BillingService.Api\\BillingService.Api.csproj|d:\\sgen\\sgen-api-1\\sgen-api-1\\services\\billingservice\\billingservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{760FFD54-4181-43BF-BA49-619A77FB3311}|services\\BillingService\\BillingService.Api\\BillingService.Api.csproj|solutionrelative:services\\billingservice\\billingservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3DD67BC-E31F-4F24-869A-ECE243EECE51}|framework\\SGen.Framework\\SGen.Framework.csproj|d:\\sgen\\sgen-api-1\\framework\\sgen.framework\\migrations\\20260124101034_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3DD67BC-E31F-4F24-869A-ECE243EECE51}|framework\\SGen.Framework\\SGen.Framework.csproj|d:\\sgen\\sgen-api-1\\sgen-api-1\\framework\\sgen.framework\\migrations\\20260124101034_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3DD67BC-E31F-4F24-869A-ECE243EECE51}|framework\\SGen.Framework\\SGen.Framework.csproj|solutionrelative:framework\\sgen.framework\\migrations\\20260124101034_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3DD67BC-E31F-4F24-869A-ECE243EECE51}|framework\\SGen.Framework\\SGen.Framework.csproj|d:\\sgen\\sgen-api-1\\framework\\sgen.framework\\repositories\\implementations\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3DD67BC-E31F-4F24-869A-ECE243EECE51}|framework\\SGen.Framework\\SGen.Framework.csproj|d:\\sgen\\sgen-api-1\\sgen-api-1\\framework\\sgen.framework\\repositories\\implementations\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3DD67BC-E31F-4F24-869A-ECE243EECE51}|framework\\SGen.Framework\\SGen.Framework.csproj|solutionrelative:framework\\sgen.framework\\repositories\\implementations\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
               "RelativeToolTip": "services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -44,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs",
+              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs",
               "RelativeDocumentMoniker": "services\\BillingService\\BillingService.Api\\Program.cs",
-              "ToolTip": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs",
+              "ToolTip": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs",
               "RelativeToolTip": "services\\BillingService\\BillingService.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T18:46:20.268Z",
               "EditorCaption": ""
@@ -57,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "20260124101034_initialData.cs",
-              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\Migrations\\20260124101034_initialData.cs",
+              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\framework\\SGen.Framework\\Migrations\\20260124101034_initialData.cs",
               "RelativeDocumentMoniker": "framework\\SGen.Framework\\Migrations\\20260124101034_initialData.cs",
-              "ToolTip": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\Migrations\\20260124101034_initialData.cs",
+              "ToolTip": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\framework\\SGen.Framework\\Migrations\\20260124101034_initialData.cs",
               "RelativeToolTip": "framework\\SGen.Framework\\Migrations\\20260124101034_initialData.cs",
               "ViewState": "AgIAAMkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,14 +69,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CommandRepository.cs",
-              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\Repositories\\Implementations\\CommandRepository.cs",
+              "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\framework\\SGen.Framework\\Repositories\\Implementations\\CommandRepository.cs",
               "RelativeDocumentMoniker": "framework\\SGen.Framework\\Repositories\\Implementations\\CommandRepository.cs",
-              "ToolTip": "D:\\SGEN\\SGEN-API-1\\framework\\SGen.Framework\\Repositories\\Implementations\\CommandRepository.cs",
+              "ToolTip": "D:\\SGEN\\SGEN-API-1\\SGEN-API-1\\framework\\SGen.Framework\\Repositories\\Implementations\\CommandRepository.cs",
               "RelativeToolTip": "framework\\SGen.Framework\\Repositories\\Implementations\\CommandRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAASwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T06:50:20.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T06:50:20.544Z"
             }
           ]
         }
