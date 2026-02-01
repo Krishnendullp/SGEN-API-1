@@ -38,8 +38,7 @@
               "RelativeToolTip": "services\\BillingService\\BillingService.Api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-31T18:52:31.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T18:52:31.617Z"
             },
             {
               "$type": "Document",
@@ -47,9 +46,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs",
               "RelativeDocumentMoniker": "services\\BillingService\\BillingService.Api\\Program.cs",
-              "ToolTip": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs",
-              "RelativeToolTip": "services\\BillingService\\BillingService.Api\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwAsAAAAsAAAAAAAAAA==",
+              "ToolTip": "D:\\SGEN\\SGEN-API-1\\services\\BillingService\\BillingService.Api\\Program.cs*",
+              "RelativeToolTip": "services\\BillingService\\BillingService.Api\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T18:46:20.268Z",
               "EditorCaption": ""
